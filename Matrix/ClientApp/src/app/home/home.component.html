@@ -1,0 +1,11 @@
+
+<div *ngIf="show">
+  <h1 class="text-center">
+    Welcome to the Matrix!
+  </h1>
+  <button (click)="toggle()" class="btn btn-outline-success my-2 my-sm-0" type="submit">Register</button>
+</div>
+  <div *ngIf="!show">
+    <app-register></app-register>
+  </div>
+
